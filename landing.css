@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.gamecard {
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}

@@ -1,6 +1,5 @@
-.gamecard {
-    width: auto;
-    background-color: black;
-    color: white;
-
+body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: #292323;
+    color: #ffffff;
 }
