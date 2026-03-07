@@ -118,12 +118,12 @@ footer {
   font-size: 14px;
   padding: 150px 150px 80px 150px !important;
   margin-top: 0px !important;
-  color: #616061;
-  background-color: #eee;
+  color: #dadada;
+  background-color: #1d232a;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(238, 238, 238, 1) 45%
+    #1d232a 0%,
+    #1d232a 45%
   );
   max-width: none !important;
   margin-bottom: 0 !important;
@@ -131,7 +131,7 @@ footer {
 }
 
 footer p {
-  color: #616061;
+  color: #dadada;
 }
 
 footer a {
@@ -155,8 +155,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
-  background-color: #fefefe;
-  color: #04143a;
+  background-color: #1d232a;
+  color: #fefefe;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -269,8 +269,8 @@ h1.name {
   margin: 30px 80px;
   padding: 25px 25px 10px 25px;
   border-radius: 10px;
-  background: #ffffff;
-  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+  background: #313338;
+  box-shadow: -20px 20px 60px #52555e, 20px -20px 60px #52555e;
 }
 
 *[dir='ltr'] .list-card.example {
@@ -308,7 +308,7 @@ h1.name {
 
 .list-card div p {
   font-size: 18px;
-  color: #616061;
+  color: #dadada;
   line-height: 24px;
   margin-bottom: 22px;
 }
@@ -320,7 +320,7 @@ h1.name {
 .container ul {
   list-style: none;
   font-size: 18px;
-  color: #616061;
+  color: #dadada;
   line-height: 24px;
   margin-bottom: 16px;
   margin-left: 20px;
@@ -342,7 +342,7 @@ h1.name {
 }
 
 .yepyep ul li:before {
-  content: '✓';
+  content: '✓“';
   font-size: 14px;
   font-weight: bold;
   color: green;
@@ -377,17 +377,17 @@ h1.name {
 .slack .slackname {
   font-weight: 600;
   font-size: 16px;
-  color: #1d1c1d;
+  color: #dbd2db;
 }
 
 .slack .slacktime {
   font-size: 14px;
-  color: #616061;
+  color: #dadada;
 }
 
 .slack .slackmessage {
   font-size: 16px;
-  color: #1d1c1d;
+  color: #dbd2db;
 }
 
 .card {
