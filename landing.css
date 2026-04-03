@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     font-family: 'Google Sans', system-ui, sans-serif;
     background: radial-gradient(circle at 20% -10%, #3e2d80 0%, #1b1630 40%, #0c0f16 100%);
@@ -20,7 +20,7 @@ main {
     gap: 28px;
     width: min(980px, 100% - 40px);
     margin: 0 auto;
-    padding: 28px 0 40px;
+    padding: 28px 0 30px;
 }
 
 .hero {
@@ -136,6 +136,27 @@ a {
 
 .button-secondary:hover {
     background: rgba(255, 255, 255, 0.08);
+}
+
+.site-footer {
+    width: min(980px, 100% - 40px);
+    margin: 0 auto;
+    padding: 6px 0 26px;
+    color: #cbc7ea;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.site-footer p + p {
+    margin-top: 6px;
+}
+
+.site-footer a {
+    margin: 0 10px 0 0;
+    color: #ffffff;
 }
 
 @media (max-width: 680px) {
