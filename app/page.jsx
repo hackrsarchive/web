@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <header className="heading">
         <a className="brand" href="/" aria-label="Go to homepage">
-          <img src="/static/img/logo.png" alt="hackr's Archive logo" width="60" height="60" />
+          <img src="/favicon.svg" alt="hackr's Archive logo" width="60" height="60" />
           <span>hackr's Archive</span>
         </a>
         <nav aria-label="Primary">

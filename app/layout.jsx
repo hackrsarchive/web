@@ -4,7 +4,7 @@ export const metadata = {
   title: "hackr's Archive",
   description: "hackr's Archive is a tiny game studio building weird, fun, and experimental projects.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.svg",
   },
 };
 
