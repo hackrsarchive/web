@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /randomfiles/
+
+Sitemap: https://hackrsarchive.com/sitemap.xml
