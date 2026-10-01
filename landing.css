@@ -26,6 +26,11 @@ body {
     text-align: left;
 }
 
+.gamecard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
 .heading {
     display: flex;
     align-items: center;
