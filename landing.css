@@ -58,3 +58,14 @@ a {
     margin-top: 20px;
     width: 110px;
 }
+
+.gamecard-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 110px;
+}
